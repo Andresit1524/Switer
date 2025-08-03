@@ -57,7 +57,7 @@ importers:
         specifier: ^5.0.0
         version: 5.37.1
       tailwindcss:
-        specifier: ^4.0.0
+        specifier: ^4.1.11
         version: 4.1.11
       vite:
         specifier: ^7.0.4
