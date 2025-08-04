@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Google Code Sans, Cascadia Mono, Consolas",
+    "editor.formatOnPaste": true,
+    "editor.autoIndentOnPaste": true,
+    "markdown.extension.completion.enabled": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true
+}
