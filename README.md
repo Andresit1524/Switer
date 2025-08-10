@@ -1,70 +1,71 @@
 # Switer (a.k.a. SwiterMD)
-> Escribe con comodidad y menos distracciones. Si puedes escribirlo, que sea en Switer.
+> *Swift Writing for everyone*
 
-**Switer** (o *SwiterMD* como desambiguación) es un editor de texto orientado a la escritura, notas y PKM (*Gestión Personal del Conocimiento*), que busca destacar por la comodidad, la potencia y la simplicidad.
+**Switer** (or *SwiterMD* for disambiguation) is a text editor *in development* focused on writing, notes, and PKM (*Personal Knowledge Management*), which aims to stand out for its comfort, power, and simplicity.
 
-## Características principales *planeadas*
-- Editor Markdown con capacidad de edición WYSIWYG y vista previa
-- Edición por bloques más capaz y dinámica para una experiencia más fluida
-- Una variante de Markdown propia diseñada para ser más compatible, elegante y portable
-- Integración con extensiones como LaTeX, Mermaid, embeds y referencias cruzadas
-- Máximo rendimiento y velocidad de uso
-- Diseño mejorado para dispositivos móviles y de escritorio
-- Local-first, sin login, solo archivos locales en tu disco
-- Sistema de plugins base y posibilidad de plugins de terceros
-- Aspecto elegante, limpio y dinámico
-- Integraciones con terceros, sincronización y mejores capacidades de exportación
+## *Planned* main features
+- Markdown editor with WYSIWYG editing and preview capabilities
+- More capable and dynamic block editing for a smoother experience
+- A proprietary Markdown variant designed to be more compatible, elegant, and portable
+- Integration with extensions such as LaTeX, Mermaid, embeds, and cross-references
+- Maximum performance and speed of use
+- Improved design for mobile and desktop devices
+- Local-first, no login, just local files on your disk
+- Base plugin system and possibility of third-party plugins
+- Elegant, clean, and dynamic appearance
+- Third-party integrations, synchronization, and better export capabilities
 
-Y lo más importante: **no imitar los errores de los programas de su tipo**. Switer nace de la necesidad de una aplicación capaz y apta para todos, a diferencia de los programas actuales, muy técnicos e *incompletos*.
+And most importantly: **it does not seek to imitate the mistakes of programs of its kind**. Switer was born from the need for an application that is capable and suitable for everyone, unlike current programs, which are very technical and **incomplete**.
 
-### Filosofía
-Switer busca cumplir con los siguientes principios:
+### Philosophy
+Switer seeks to comply with the following principles:
 
-1. **Rápido:** en rendimiento gracias a su stack Svelte + Tauri, pero también en experiencia y uso.
-2. **Cómodo:** que escribir sea un proceso libre sin fricciones, sin inconvenientes y con la mejor accesibilidad posible.
-3. **Elegante:** sin incomodidades, sin soluciones a medias. Un espacio con todo lo necesario con un diseño bien pensado.
-4. **Completo:** que cada función este en cada versión. Nada de versiones restringidas en funciones, recortes o limitaciones.
-5. **Portable:** sean versiones portables y multiplataforma, o capacidades de exportación y acceso a tus notas, Switer no es una forma de dependencia, sino una herramienta para tus cosas.
-6. **Fresco:** sin pesadez, malos diseños o funcionalidad sin estética. Switer busca ser una app bonita y con lo que necesitas.
-7. **Personal:** Switer es tuyo, y no solo por la licencia MIT. Busca la mejor experiencia para cada usuario, porque el **PKM** es **P**ersonal.
+1.  **Fast:** in performance thanks to its Svelte + Tauri stack, but also in experience and use.
+2.  **Comfortable:** so that writing is a frictionless process, without inconveniences and with the best possible accessibility.
+3.  **Elegant:** without discomfort, without half-baked solutions. A space with everything you need with a well-thought-out design.
+4.  **Complete:** that each function is in each version. No restricted versions in functions, cuts or limitations.
+5.  **Portable:** whether they are portable and multiplatform versions, with export capabilities and access to your notes, Switer is not a form of dependency, but a tool for **your** things.
+6.  **Fresh:** without heaviness, bad designs or functionality without aesthetics. Switer seeks to be a beautiful app with what you need.
+7.  **Personal:** Switer is yours, and not just because of the MIT license. It seeks the best experience for each user, because **PKM** is **P**ersonal.
+8.  **Robust:** with fewer errors, better resilience and optimal solutions.
 
-## Desarrollo
-Switer está siendo desarrollado en SvelteKit y será empaquetado como app en Tauri cuando esté listo. Para contribuir al código, es recomendable conocer estas herramientas y sus dependencias.
+## Development
+Switer is being developed in Svelte-SvelteKit and will be packaged as an app in Tauri when it is ready. To contribute to the code, it is recommended to know these tools and their dependencies.
 
-### Instalación
+### Installation
 
-#### Requisitos
-Antes de comenzar, asegúrate de tener instalado:
+#### Requirements
+Before you begin, make sure you have installed:
 
-- [Node.js](https://nodejs.org/) (v18 o superior)
-- [pnpm](https://pnpm.io/) (gestor de paquetes, opcional pero recomendado)
-- [Rust](https://www.rust-lang.org/) (requerido por Tauri)
-- Un compilador C/C++:
-    - En Windows: [Microsoft Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-    - En Linux: `build-essential`
-    - En macOS: Xcode Command Line Tools (`xcode-select --install`)
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [pnpm](https://pnpm.io/) (package manager, optional but recommended)
+- [Rust](https://www.rust-lang.org/) (required by Tauri)
+- A C/C++ compiler:
+    - On Windows: [Microsoft Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+    - On Linux: `build-essential`
+    - On macOS: Xcode Command Line Tools (`xcode-select --install`)
 
-#### Instrucciones
-1. Clona la repo:
+#### Instructions
+1.  Clone the repo:
 
 ```Bash
 git clone https://github.com/Andresit1524/Switer
 cd Switer
 ```
 
-2. Instala dependencias y ejecuta:
+2.  Install dependencies and run:
 
 ```Bash
 pnpm install
 pnpm dev
 ```
 
-### Estado del proyecto (*28 de julio de 2025*)
-Actualmente Switer esta en fase de **prototipo**, de forma que no hay cambios o implementaciones importantes acá en el repositorio.
+### Project status (*August 10, 2025*)
+Switer is currently in the **prototype** phase, so there are no important changes or implementations here in the repository.
 
-### Sobre su creador
-Soy Hayran Andrés López, un estudiante de ingeniería que busca desarrollar Switer como una forma de aprender sobre desarrollo web y de aplicaciones, y también para cumplir un objetivo: **crear lo mas cercano al PKM definitivo**, ofreciendo una experiencia completa y un software libre y de calidad.
-
-Me encanta Obsidian, y quiero que sus bondades estén en manos de todos, no robando el software, sino ofreciendo uno que potencie sus fortalezas, corrija sus deficiencias y ofrezca una versión única de un PKM, el tipo de software que todos merecen disfrutar.
-
-Puedes preguntarme sobre el proyecto y contribuir a él (con ideas o en el repo) [en este correo](mailto:hayranlopez1524@gmail.com)
+> ### About its creator
+> I'm Hayran Andrés López, a engineering student who seeks to develop Switer as a way to learn about web and application development, and also to fulfill a goal: **create the closest thing to the definitive PKM**, offering a complete experience and free, quality software.
+>
+> I love Obsidian, and I want its benefits to be in everyone's hands, not by stealing the software, but by offering one that enhances its strengths, corrects its deficiencies, and offers a unique version of a PKM, the type of software that everyone deserves to enjoy.
+>
+> You can ask me about the project and contribute to it (with ideas or in the repo) [at this email](mailto:hayranlopez1524@gmail.com)
