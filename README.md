@@ -60,5 +60,5 @@ pnpm install
 pnpm dev
 ```
 
-### Project status (*August 10, 2025*)
+### Project status (*November 18, 2025*)
 Switer was paused because I has no time or knowlegde for this xd. So i'll try it later.
