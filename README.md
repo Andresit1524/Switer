@@ -61,11 +61,4 @@ pnpm dev
 ```
 
 ### Project status (*August 10, 2025*)
-Switer is currently in the **prototype** phase, so there are no important changes or implementations here in the repository.
-
-> ### About its creator
-> I'm Hayran Andrés López, a engineering student who seeks to develop Switer as a way to learn about web and application development, and also to fulfill a goal: **create the closest thing to the definitive PKM**, offering a complete experience and free, quality software.
->
-> I love Obsidian, and I want its benefits to be in everyone's hands, not by stealing the software, but by offering one that enhances its strengths, corrects its deficiencies, and offers a unique version of a PKM, the type of software that everyone deserves to enjoy.
->
-> You can ask me about the project and contribute to it (with ideas or in the repo) [at this email](mailto:hayranlopez1524@gmail.com)
+Switer was paused because I has no time or knowlegde for this xd. So i'll try it later.
